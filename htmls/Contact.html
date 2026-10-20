@@ -1,0 +1,45 @@
+<div class="ct-site" data-page="Contact" id="ct-root">
+<a class="ct-skip" href="#ct-main">Skip to content</a>
+<header class="ct-head">
+    <div class="ct-head-row">
+        <button type="button" class="ct-burger" aria-label="Open menu" onclick="ContactJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="ct-logo" href="Home"><svg viewBox="0 0 40 40" width="36" height="36" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#1E2A33"/><path d="M9 20.5 20 11l11 9.5" fill="none" stroke="#F7F4EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 19v11h14V19" fill="none" stroke="#F7F4EE" stroke-width="3" stroke-linejoin="round"/><path d="M20 30c-2.6 0-4-1.7-4-3.6 0-2.4 2.4-3.4 2.4-5.7 1.7.9 2.8 2.4 2.8 4 .5-.3.9-.9 1-1.6.8.8 1.8 1.9 1.8 3.3 0 1.9-1.4 3.6-4 3.6z" fill="#E2622B"/></svg><span>{plhd_brand}</span></a>
+        <nav class="ct-nav" id="ct-nav" aria-label="Main">
+            <div class="ct-nav-top"><b>Menu</b><button type="button" class="ct-ibtn" aria-label="Close menu" onclick="ContactJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+            <ul class="ct-menu"><li><a class="ct-ml" href="Home">Home</a></li><li><a class="ct-ml" href="Services">Services</a></li><li><a class="ct-ml" href="ServiceArea">Service area</a></li><li><a class="ct-ml" href="Reviews">Reviews</a></li><li><a class="ct-ml" href="About">About</a></li><li><a class="ct-ml ct-on" href="Contact" aria-current="page">Contact</a></li></ul>
+            <a class="ct-btn ct-nav-cta" href="Quote">Request a quote</a>
+        </nav>
+        <a class="ct-call" href="{plhd_tel}"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4.5-2 1.5a11 11 0 0 0 5.5 5.5l1.5-2 4.5 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2z"/></svg><span>{plhd_phone}</span></a>
+        <a class="ct-btn ct-head-cta" href="Quote">Request a quote</a>
+    </div>
+    <div class="ct-scrim" id="ct-scrim" onclick="ContactJs.closeNav()"></div>
+</header>
+<main class="ct-main" id="ct-main">
+{plhd_blocks}
+
+</main>
+<footer class="ct-foot">
+    <div class="ct-foot-in">
+        <div class="ct-fbrand">
+            <a class="ct-logo" href="Home"><svg viewBox="0 0 40 40" width="36" height="36" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#1E2A33"/><path d="M9 20.5 20 11l11 9.5" fill="none" stroke="#F7F4EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 19v11h14V19" fill="none" stroke="#F7F4EE" stroke-width="3" stroke-linejoin="round"/><path d="M20 30c-2.6 0-4-1.7-4-3.6 0-2.4 2.4-3.4 2.4-5.7 1.7.9 2.8 2.4 2.8 4 .5-.3.9-.9 1-1.6.8.8 1.8 1.9 1.8 3.3 0 1.9-1.4 3.6-4 3.6z" fill="#E2622B"/></svg><span>{plhd_brand}</span></a>
+            <p>{plhd_tagline}</p>
+            <a class="ct-btn" href="Quote">Request a quote</a>
+        </div>
+        <div class="ct-fcol">
+            <b>Services</b>
+            <ul>{plhd_tradelinks}</ul>
+        </div>
+        <div class="ct-fcol">
+            <b>Company</b>
+            <ul><li><a href="About">About us</a></li><li><a href="Reviews">Reviews</a></li><li><a href="ServiceArea">Service area</a></li><li><a href="Contact">Contact</a></li></ul>
+        </div>
+        <div class="ct-fcol">
+            <b>Get in touch</b>
+            <ul><li><a href="{plhd_tel}">{plhd_phone}</a></li><li><a href="mailto:{plhd_email}">{plhd_email}</a></li><li>{plhd_address}</li></ul>
+            <ul class="ct-hours">{plhd_hours}</ul>
+        </div>
+    </div>
+    <div class="ct-foot-b"><span>&copy; {plhd_year} {plhd_brand}. {plhd_licence}</span><a href="AdminLogin">Staff sign in</a></div>
+</footer>
+<div class="ct-toast" id="ct-toast" role="status" aria-live="polite"></div>
+</div>

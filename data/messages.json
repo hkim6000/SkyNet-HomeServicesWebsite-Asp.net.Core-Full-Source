@@ -1,0 +1,35 @@
+[
+  {
+    "id": "M-Q8NXP8",
+    "name": "Claire Benson",
+    "email": "claire.benson@example.com",
+    "phone": "(555) 744-1290",
+    "topic": "A question",
+    "text": "Do you service tankless water heaters? Ours is a 2019 model and shows an error code.",
+    "when": "2026-10-20T12:20:00Z",
+    "read": false,
+    "done": false
+  },
+  {
+    "id": "M-A8YFH2",
+    "name": "Jonah Price",
+    "email": "jonah.price@example.com",
+    "phone": "",
+    "topic": "Billing",
+    "text": "I paid invoice HL-2026-0002 by check on Friday, just checking it arrived.",
+    "when": "2026-10-19T18:05:00Z",
+    "read": false,
+    "done": false
+  },
+  {
+    "id": "M-N8M5XF",
+    "name": "Lena Fischer",
+    "email": "lena.fischer@example.com",
+    "phone": "(555) 380-6614",
+    "topic": "Feedback",
+    "text": "Rosa was quick, tidy and explained everything. Happy to leave a review.",
+    "when": "2026-10-17T21:40:00Z",
+    "read": true,
+    "done": true
+  }
+]

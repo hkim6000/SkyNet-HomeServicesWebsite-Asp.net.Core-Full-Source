@@ -1,0 +1,157 @@
+[
+  {
+    "id": "inv-d4aba80009e8",
+    "number": "HL-2026-0001",
+    "jobId": "J-RFV9X6",
+    "quoteId": "Q-77ZVRM",
+    "status": "paid",
+    "name": "Hannah Lee",
+    "phone": "(555) 318-9902",
+    "email": "hannah.lee@example.com",
+    "address": "7 Birch Court, Willow Park 40104",
+    "lines": [
+      {
+        "text": "Leak repair",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "tripFee": 0,
+    "taxRate": 6.5,
+    "subtotal": 129.0,
+    "tax": 8.39,
+    "total": 137.39,
+    "created": "2026-10-14T14:00:00Z",
+    "issued": "2026-10-14",
+    "due": "2026-10-28",
+    "paidOn": "2026-10-16",
+    "method": "card",
+    "ref": "",
+    "voidWhy": "",
+    "note": "Thank you for choosing Hearthline."
+  },
+  {
+    "id": "inv-ffc6169a2ecd",
+    "number": "HL-2026-0002",
+    "jobId": "J-K94CEW",
+    "quoteId": "Q-UEH4LX",
+    "status": "paid",
+    "name": "Marcus Webb",
+    "phone": "(555) 612-4470",
+    "email": "marcus.webb@example.com",
+    "address": "240 Cedar Road, Cedar Bend 40110",
+    "lines": [
+      {
+        "text": "Heating or cooling repair",
+        "qty": 1,
+        "price": 159
+      }
+    ],
+    "tripFee": 25,
+    "taxRate": 6.5,
+    "subtotal": 184.0,
+    "tax": 11.96,
+    "total": 195.96,
+    "created": "2026-10-15T16:00:00Z",
+    "issued": "2026-10-15",
+    "due": "2026-10-29",
+    "paidOn": "2026-10-17",
+    "method": "check",
+    "ref": "2231",
+    "voidWhy": "",
+    "note": "Thank you for choosing Hearthline."
+  },
+  {
+    "id": "inv-76e56cd81b1b",
+    "number": "HL-2026-0003",
+    "jobId": "J-T8EDV6",
+    "quoteId": "Q-XY97EF",
+    "status": "paid",
+    "name": "Owen Fitzgerald",
+    "phone": "(555) 821-3307",
+    "email": "owen.fitz@example.com",
+    "address": "5 Harbor View, Harlow Green 40115",
+    "lines": [
+      {
+        "text": "Light fixture install",
+        "qty": 1,
+        "price": 145
+      }
+    ],
+    "tripFee": 25,
+    "taxRate": 6.5,
+    "subtotal": 170.0,
+    "tax": 11.05,
+    "total": 181.05,
+    "created": "2026-10-16T18:00:00Z",
+    "issued": "2026-10-16",
+    "due": "2026-10-30",
+    "paidOn": "2026-10-18",
+    "method": "cash",
+    "ref": "",
+    "voidWhy": "",
+    "note": "Thank you for choosing Hearthline."
+  },
+  {
+    "id": "inv-a5a76e205d55",
+    "number": "HL-2026-0004",
+    "jobId": "J-LH9DPU",
+    "quoteId": "Q-U2YB7Y",
+    "status": "issued",
+    "name": "Grace Kim",
+    "phone": "(555) 264-9035",
+    "email": "grace.kim@example.com",
+    "address": "33 Elm Street, Millbrook 40101",
+    "lines": [
+      {
+        "text": "Faucet or toilet install",
+        "qty": 1,
+        "price": 165
+      }
+    ],
+    "tripFee": 0,
+    "taxRate": 6.5,
+    "subtotal": 165.0,
+    "tax": 10.73,
+    "total": 175.73,
+    "created": "2026-09-30T16:00:00Z",
+    "issued": "2026-09-30",
+    "due": "2026-10-14",
+    "paidOn": "",
+    "method": "",
+    "ref": "",
+    "voidWhy": "",
+    "note": "Thank you for choosing Hearthline."
+  },
+  {
+    "id": "inv-e3e1488a766a",
+    "number": "HL-2026-0005",
+    "jobId": "J-L63TJ5",
+    "quoteId": "Q-JR339F",
+    "status": "issued",
+    "name": "Luis Moreno",
+    "phone": "(555) 377-6612",
+    "email": "luis.moreno@example.com",
+    "address": "102 Pine Avenue, Ashford Hollow 40120",
+    "lines": [
+      {
+        "text": "After-work clean-up",
+        "qty": 1,
+        "price": 179
+      }
+    ],
+    "tripFee": 45,
+    "taxRate": 6.5,
+    "subtotal": 224.0,
+    "tax": 14.56,
+    "total": 238.56,
+    "created": "2026-10-17T20:00:00Z",
+    "issued": "2026-10-17",
+    "due": "2026-10-31",
+    "paidOn": "",
+    "method": "",
+    "ref": "",
+    "voidWhy": "",
+    "note": "Thank you for choosing Hearthline."
+  }
+]

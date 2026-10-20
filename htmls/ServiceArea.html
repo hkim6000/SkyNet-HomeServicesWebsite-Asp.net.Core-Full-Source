@@ -1,0 +1,45 @@
+<div class="sa-site" data-page="ServiceArea" id="sa-root">
+<a class="sa-skip" href="#sa-main">Skip to content</a>
+<header class="sa-head">
+    <div class="sa-head-row">
+        <button type="button" class="sa-burger" aria-label="Open menu" onclick="ServiceAreaJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="sa-logo" href="Home"><svg viewBox="0 0 40 40" width="36" height="36" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#1E2A33"/><path d="M9 20.5 20 11l11 9.5" fill="none" stroke="#F7F4EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 19v11h14V19" fill="none" stroke="#F7F4EE" stroke-width="3" stroke-linejoin="round"/><path d="M20 30c-2.6 0-4-1.7-4-3.6 0-2.4 2.4-3.4 2.4-5.7 1.7.9 2.8 2.4 2.8 4 .5-.3.9-.9 1-1.6.8.8 1.8 1.9 1.8 3.3 0 1.9-1.4 3.6-4 3.6z" fill="#E2622B"/></svg><span>{plhd_brand}</span></a>
+        <nav class="sa-nav" id="sa-nav" aria-label="Main">
+            <div class="sa-nav-top"><b>Menu</b><button type="button" class="sa-ibtn" aria-label="Close menu" onclick="ServiceAreaJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+            <ul class="sa-menu"><li><a class="sa-ml" href="Home">Home</a></li><li><a class="sa-ml" href="Services">Services</a></li><li><a class="sa-ml sa-on" href="ServiceArea" aria-current="page">Service area</a></li><li><a class="sa-ml" href="Reviews">Reviews</a></li><li><a class="sa-ml" href="About">About</a></li><li><a class="sa-ml" href="Contact">Contact</a></li></ul>
+            <a class="sa-btn sa-nav-cta" href="Quote">Request a quote</a>
+        </nav>
+        <a class="sa-call" href="{plhd_tel}"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4.5-2 1.5a11 11 0 0 0 5.5 5.5l1.5-2 4.5 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2z"/></svg><span>{plhd_phone}</span></a>
+        <a class="sa-btn sa-head-cta" href="Quote">Request a quote</a>
+    </div>
+    <div class="sa-scrim" id="sa-scrim" onclick="ServiceAreaJs.closeNav()"></div>
+</header>
+<main class="sa-main" id="sa-main">
+{plhd_blocks}
+
+</main>
+<footer class="sa-foot">
+    <div class="sa-foot-in">
+        <div class="sa-fbrand">
+            <a class="sa-logo" href="Home"><svg viewBox="0 0 40 40" width="36" height="36" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#1E2A33"/><path d="M9 20.5 20 11l11 9.5" fill="none" stroke="#F7F4EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 19v11h14V19" fill="none" stroke="#F7F4EE" stroke-width="3" stroke-linejoin="round"/><path d="M20 30c-2.6 0-4-1.7-4-3.6 0-2.4 2.4-3.4 2.4-5.7 1.7.9 2.8 2.4 2.8 4 .5-.3.9-.9 1-1.6.8.8 1.8 1.9 1.8 3.3 0 1.9-1.4 3.6-4 3.6z" fill="#E2622B"/></svg><span>{plhd_brand}</span></a>
+            <p>{plhd_tagline}</p>
+            <a class="sa-btn" href="Quote">Request a quote</a>
+        </div>
+        <div class="sa-fcol">
+            <b>Services</b>
+            <ul>{plhd_tradelinks}</ul>
+        </div>
+        <div class="sa-fcol">
+            <b>Company</b>
+            <ul><li><a href="About">About us</a></li><li><a href="Reviews">Reviews</a></li><li><a href="ServiceArea">Service area</a></li><li><a href="Contact">Contact</a></li></ul>
+        </div>
+        <div class="sa-fcol">
+            <b>Get in touch</b>
+            <ul><li><a href="{plhd_tel}">{plhd_phone}</a></li><li><a href="mailto:{plhd_email}">{plhd_email}</a></li><li>{plhd_address}</li></ul>
+            <ul class="sa-hours">{plhd_hours}</ul>
+        </div>
+    </div>
+    <div class="sa-foot-b"><span>&copy; {plhd_year} {plhd_brand}. {plhd_licence}</span><a href="AdminLogin">Staff sign in</a></div>
+</footer>
+<div class="sa-toast" id="sa-toast" role="status" aria-live="polite"></div>
+</div>

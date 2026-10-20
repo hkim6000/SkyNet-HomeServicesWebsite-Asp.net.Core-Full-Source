@@ -1,0 +1,82 @@
+[
+  {
+    "when": "2026-10-20T16:58:23.0364518Z",
+    "userId": "u-demo",
+    "who": "Demo manager",
+    "action": "sign in",
+    "target": "demo",
+    "ok": true
+  },
+  {
+    "when": "2026-10-20T14:15:00Z",
+    "userId": "u-tom",
+    "who": "Tom Akers",
+    "action": "job in progress",
+    "target": "J-3DNEP6",
+    "ok": true
+  },
+  {
+    "when": "2026-10-20T11:55:00Z",
+    "userId": "u-rosa",
+    "who": "Rosa Delgado",
+    "action": "job on the way",
+    "target": "J-4ZWJD7",
+    "ok": true
+  },
+  {
+    "when": "2026-10-20T11:52:00Z",
+    "userId": "u-rosa",
+    "who": "Rosa Delgado",
+    "action": "view invoices",
+    "target": "list",
+    "ok": false
+  },
+  {
+    "when": "2026-10-20T11:50:00Z",
+    "userId": "u-rosa",
+    "who": "Rosa Delgado",
+    "action": "sign in",
+    "target": "rosa",
+    "ok": true
+  },
+  {
+    "when": "2026-10-20T11:41:00Z",
+    "userId": "u-ben",
+    "who": "Ben Ortiz",
+    "action": "open dispatch board",
+    "target": "2026-10-20",
+    "ok": true
+  },
+  {
+    "when": "2026-10-20T11:30:00Z",
+    "userId": "u-ben",
+    "who": "Ben Ortiz",
+    "action": "sign in",
+    "target": "ben",
+    "ok": true
+  },
+  {
+    "when": "2026-10-19T17:00:00Z",
+    "userId": "u-maria",
+    "who": "Maria Chen",
+    "action": "cancel job",
+    "target": "J-BT8SNY",
+    "ok": true
+  },
+  {
+    "when": "2026-10-19T14:45:00Z",
+    "userId": "u-maria",
+    "who": "Maria Chen",
+    "action": "send quote",
+    "target": "Q-CJU4KH",
+    "ok": true
+  },
+  {
+    "when": "2026-10-19T13:02:00Z",
+    "userId": "u-maria",
+    "who": "Maria Chen",
+    "action": "sign in",
+    "target": "maria",
+    "ok": true
+  }
+]

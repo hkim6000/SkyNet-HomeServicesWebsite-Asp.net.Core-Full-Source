@@ -1,0 +1,134 @@
+SkyLite & SkyNet Framework License
+
+Copyright (c) 2026 HC Kim. All rights reserved.
+https://www.theskylite.com
+
+The SkyLite and SkyNet Frameworks are owned by HC Kim ("Owner"), who also
+does business under the trade name "The SkyLite". The Owner grants this
+license.
+
+
+This repository and package contain two kinds of material, licensed
+differently:
+
+  Part A  Template and sample code - the project files, Program.cs, sample
+          pages, configuration samples and folder structure in this
+          repository.
+
+  Part B  The SkyLite and SkyNet Frameworks - SkyLite.dll, SkyNet.dll and
+          any other compiled file distributed as part of either framework,
+          whether in this repository, in a NuGet package or by any other
+          means (each, and together, "the Framework").
+
+
+===============================================================================
+PART A - TEMPLATE AND SAMPLE CODE (MIT License)
+===============================================================================
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the template and sample code, to use, copy, modify, merge, publish,
+distribute, sublicense and/or sell copies of it, and to permit persons to whom
+it is furnished to do so, subject to the following condition:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the template and sample code.
+
+THE TEMPLATE AND SAMPLE CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE OWNER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE TEMPLATE AND SAMPLE CODE OR THE USE OR OTHER DEALINGS
+IN IT.
+
+
+===============================================================================
+PART B - THE SKYLITE AND SKYNET FRAMEWORKS (Proprietary License)
+===============================================================================
+
+The Framework is proprietary software. It is licensed, not sold. By
+downloading, installing or using the Framework, you agree to these terms.
+
+1. License Grant
+
+   The Owner grants you a free, non-exclusive, non-transferable, worldwide,
+   royalty-free license to:
+
+   a) download, install and use the Framework to develop, test and run your
+      own applications, including commercial applications; and
+
+   b) redistribute the unmodified Framework only as an integral part of an
+      application you build with it, and not on its own.
+
+2. Restrictions
+
+   You may not, and may not permit others to:
+
+   a) modify, adapt, translate or create derivative works of the Framework;
+
+   b) decompile, disassemble or otherwise reverse engineer the Framework,
+      except and only to the extent that applicable law expressly permits it
+      despite this restriction;
+
+   c) sell, rent, lease, sublicense or distribute the Framework on its own,
+      or as part of any library, toolkit, template or package whose main
+      purpose is to provide the Framework or its functionality to others;
+
+   d) use the Framework, or any knowledge gained from inspecting it, to build
+      a framework, library or product that competes with the Framework;
+
+   e) remove, alter or obscure any copyright, trademark or other notice in
+      the Framework;
+
+   f) use the names "SkyLite Framework", "SkyNet Framework", "The SkyLite"
+      or "HC Kim" to endorse or promote your products without the Owner's
+      prior written permission.
+
+3. Ownership
+
+   The Framework, including all copies and all intellectual property rights
+   in it, is and remains the property of the Owner. All rights not expressly
+   granted in this license are reserved.
+
+4. Updates
+
+   The Owner may release new versions of the Framework under different
+   terms. Each version is governed by the license included with it.
+
+5. Termination
+
+   This license ends automatically if you breach any of its terms. On
+   termination you must stop using the Framework and delete all copies in
+   your possession. Sections 3, 6, 7 and 8 survive termination.
+
+6. No Warranty
+
+   THE FRAMEWORK IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF
+   ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+   OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND
+   NONINFRINGEMENT. YOU USE THE FRAMEWORK AT YOUR OWN RISK.
+
+7. Limitation of Liability
+
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE OWNER BE
+   LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE
+   DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, DATA OR BUSINESS, ARISING
+   FROM OR RELATED TO THE FRAMEWORK OR THIS LICENSE, EVEN IF ADVISED OF THE
+   POSSIBILITY OF SUCH DAMAGES. THE OWNER'S TOTAL LIABILITY FOR ANY CLAIM
+   SHALL NOT EXCEED ZERO U.S. DOLLARS (USD 0), THE AMOUNT YOU PAID FOR THE
+   FRAMEWORK.
+
+8. Governing Law
+
+   This license is governed by the laws of the State of North Carolina,
+   United States, without regard to its conflict-of-law rules. Any dispute
+   shall be brought exclusively in the state or federal courts located in
+   Wake County, North Carolina.
+
+9. Entire Agreement
+
+   This license is the entire agreement between you and the Owner about the
+   Framework. If any provision is held unenforceable, the remaining
+   provisions stay in effect.
+
+Questions: https://www.theskylite.com

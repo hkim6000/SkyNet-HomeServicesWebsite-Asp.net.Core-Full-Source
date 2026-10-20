@@ -1,0 +1,982 @@
+[
+  {
+    "id": "Q-WK3DEG",
+    "key": "",
+    "status": "new",
+    "created": "2026-10-20T13:05:00Z",
+    "source": "web",
+    "name": "Rita Gomez",
+    "phone": "(555) 233-4789",
+    "email": "rita.gomez@example.com",
+    "address": "12 Oak Street",
+    "zip": "40101",
+    "town": "Millbrook",
+    "inArea": true,
+    "services": [
+      "s-drain"
+    ],
+    "description": "The upstairs shower drains very slowly and smells. Tried a plunger already.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [],
+    "tripFee": 0,
+    "taxRate": 0,
+    "subtotal": 0,
+    "tax": 0,
+    "total": 0,
+    "note": "",
+    "staffNote": "",
+    "sentAt": null,
+    "expires": null,
+    "answeredAt": null,
+    "acceptName": "",
+    "declineWhy": "",
+    "jobId": "",
+    "by": ""
+  },
+  {
+    "id": "Q-ZDPCF5",
+    "key": "",
+    "status": "new",
+    "created": "2026-10-19T22:40:00Z",
+    "source": "phone",
+    "name": "Amara Okoye",
+    "phone": "(555) 556-3019",
+    "email": "amara.okoye@example.com",
+    "address": "9 Meadow Lane",
+    "zip": "40104",
+    "town": "Willow Park",
+    "inArea": true,
+    "services": [
+      "s-outlet"
+    ],
+    "description": "Two outlets in the living room stopped working, the breaker looks fine.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [],
+    "tripFee": 0,
+    "taxRate": 0,
+    "subtotal": 0,
+    "tax": 0,
+    "total": 0,
+    "note": "",
+    "staffNote": "",
+    "sentAt": null,
+    "expires": null,
+    "answeredAt": null,
+    "acceptName": "",
+    "declineWhy": "",
+    "jobId": "",
+    "by": ""
+  },
+  {
+    "id": "Q-4ERF5D",
+    "key": "",
+    "status": "draft",
+    "created": "2026-10-19T15:10:00Z",
+    "source": "web",
+    "name": "Priscilla Tran",
+    "phone": "(555) 734-1185",
+    "email": "p.tran@example.com",
+    "address": "19 Willow Way",
+    "zip": "40112",
+    "town": "Linden Falls",
+    "inArea": true,
+    "services": [
+      "s-hvac-tune"
+    ],
+    "description": "Furnace check before winter. It makes a rattling noise when it starts.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Furnace or AC tune-up",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "tripFee": 25,
+    "taxRate": 6.5,
+    "subtotal": 144.0,
+    "tax": 9.36,
+    "total": 153.36,
+    "note": "",
+    "staffNote": "",
+    "sentAt": null,
+    "expires": null,
+    "answeredAt": null,
+    "acceptName": "",
+    "declineWhy": "",
+    "jobId": "",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-CJU4KH",
+    "key": "5071c82f58a1b0a0672cac53f37740ac",
+    "status": "sent",
+    "created": "2026-10-18T12:30:00Z",
+    "source": "web",
+    "name": "Naomi Park",
+    "phone": "(555) 299-7764",
+    "email": "naomi.park@example.com",
+    "address": "3 Linden Square",
+    "zip": "40112",
+    "town": "Linden Falls",
+    "inArea": true,
+    "services": [
+      "s-deep"
+    ],
+    "description": "Deep clean of a 3 bedroom house before family visits next month.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Deep clean",
+        "qty": 1,
+        "price": 289
+      }
+    ],
+    "tripFee": 25,
+    "taxRate": 6.5,
+    "subtotal": 314.0,
+    "tax": 20.41,
+    "total": 334.41,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-19T14:45:00Z",
+    "expires": "2026-11-19T03:59:00Z",
+    "answeredAt": null,
+    "acceptName": "",
+    "declineWhy": "",
+    "jobId": "",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-VFKGXS",
+    "key": "20e391f4436af4c2a7a5694b5926d650",
+    "status": "accepted",
+    "created": "2026-10-17T14:00:00Z",
+    "source": "web",
+    "name": "Sofia Rossi",
+    "phone": "(555) 902-5541",
+    "email": "sofia.rossi@example.com",
+    "address": "61 Brookside Drive",
+    "zip": "40123",
+    "town": "Stonebridge",
+    "inArea": true,
+    "services": [
+      "s-deep"
+    ],
+    "description": "Deep clean of a 3 bedroom house before family visits next month.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Deep clean",
+        "qty": 1,
+        "price": 289
+      }
+    ],
+    "tripFee": 45,
+    "taxRate": 6.5,
+    "subtotal": 334.0,
+    "tax": 21.71,
+    "total": 355.71,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-18T15:00:00Z",
+    "expires": "2026-11-18T03:59:00Z",
+    "answeredAt": "2026-10-19T19:30:00Z",
+    "acceptName": "Sofia Rossi",
+    "declineWhy": "",
+    "jobId": "J-8LBPZK",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-BVFSZL",
+    "key": "21510d731a9ab6cc099ff4eda6ef1b7d",
+    "status": "accepted",
+    "created": "2026-10-17T14:00:00Z",
+    "source": "web",
+    "name": "Naomi Park",
+    "phone": "(555) 299-7764",
+    "email": "naomi.park@example.com",
+    "address": "3 Linden Square",
+    "zip": "40112",
+    "town": "Linden Falls",
+    "inArea": true,
+    "services": [
+      "s-ev"
+    ],
+    "description": "EV charger install in the garage, panel is about 20 feet away.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "EV charger install",
+        "qty": 1,
+        "price": 650
+      }
+    ],
+    "tripFee": 25,
+    "taxRate": 6.5,
+    "subtotal": 675.0,
+    "tax": 43.88,
+    "total": 718.88,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-18T15:00:00Z",
+    "expires": "2026-11-18T03:59:00Z",
+    "answeredAt": "2026-10-19T19:30:00Z",
+    "acceptName": "Naomi Park",
+    "declineWhy": "",
+    "jobId": "J-YQXQNR",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-3QN9YB",
+    "key": "a3a9704e66ca8f61fe41ef2eee8b9e0f",
+    "status": "accepted",
+    "created": "2026-10-17T14:00:00Z",
+    "source": "web",
+    "name": "Amara Okoye",
+    "phone": "(555) 556-3019",
+    "email": "amara.okoye@example.com",
+    "address": "9 Meadow Lane",
+    "zip": "40104",
+    "town": "Willow Park",
+    "inArea": true,
+    "services": [
+      "s-move"
+    ],
+    "description": "Move-out clean for a 2 bedroom apartment, keys are handed back on Friday.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Move-in or move-out clean",
+        "qty": 1,
+        "price": 349
+      }
+    ],
+    "tripFee": 0,
+    "taxRate": 6.5,
+    "subtotal": 349.0,
+    "tax": 22.69,
+    "total": 371.69,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-18T15:00:00Z",
+    "expires": "2026-11-18T03:59:00Z",
+    "answeredAt": "2026-10-19T19:30:00Z",
+    "acceptName": "Amara Okoye",
+    "declineWhy": "",
+    "jobId": "J-BT8SNY",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-6YZFQG",
+    "key": "d15083b42986558797ed5a31eb96fa4c",
+    "status": "accepted",
+    "created": "2026-10-17T14:00:00Z",
+    "source": "web",
+    "name": "Owen Fitzgerald",
+    "phone": "(555) 821-3307",
+    "email": "owen.fitz@example.com",
+    "address": "5 Harbor View",
+    "zip": "40115",
+    "town": "Harlow Green",
+    "inArea": true,
+    "services": [
+      "s-ev"
+    ],
+    "description": "EV charger install in the garage, panel is about 20 feet away.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "EV charger install",
+        "qty": 1,
+        "price": 650
+      }
+    ],
+    "tripFee": 25,
+    "taxRate": 6.5,
+    "subtotal": 675.0,
+    "tax": 43.88,
+    "total": 718.88,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-18T15:00:00Z",
+    "expires": "2026-11-18T03:59:00Z",
+    "answeredAt": "2026-10-19T20:00:00Z",
+    "acceptName": "Owen Fitzgerald",
+    "declineWhy": "",
+    "jobId": "",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-HQD3DQ",
+    "key": "8218447cfa6a3183e13b6f92c435ad05",
+    "status": "sent",
+    "created": "2026-10-16T14:00:00Z",
+    "source": "web",
+    "name": "Daniel Brooks",
+    "phone": "(555) 410-2236",
+    "email": "d.brooks@example.com",
+    "address": "88 Maple Lane",
+    "zip": "40102",
+    "town": "Millbrook East",
+    "inArea": true,
+    "services": [
+      "s-wheater"
+    ],
+    "description": "Our water heater is 14 years old and now only gives warm water for ten minutes.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Water heater install",
+        "qty": 1,
+        "price": 1350
+      },
+      {
+        "text": "Haul away old water heater",
+        "qty": 1,
+        "price": 85
+      }
+    ],
+    "tripFee": 0,
+    "taxRate": 6.5,
+    "subtotal": 1435.0,
+    "tax": 93.28,
+    "total": 1528.28,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-17T16:20:00Z",
+    "expires": "2026-11-17T03:59:00Z",
+    "answeredAt": null,
+    "acceptName": "",
+    "declineWhy": "",
+    "jobId": "",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-2KSYZ8",
+    "key": "03598498e1187a5e3d54670191ff5aad",
+    "status": "accepted",
+    "created": "2026-10-15T14:00:00Z",
+    "source": "web",
+    "name": "Priscilla Tran",
+    "phone": "(555) 734-1185",
+    "email": "p.tran@example.com",
+    "address": "19 Willow Way",
+    "zip": "40112",
+    "town": "Linden Falls",
+    "inArea": true,
+    "services": [
+      "s-drain"
+    ],
+    "description": "The upstairs shower drains very slowly and smells. Tried a plunger already.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Drain clearing",
+        "qty": 1,
+        "price": 149
+      }
+    ],
+    "tripFee": 25,
+    "taxRate": 6.5,
+    "subtotal": 174.0,
+    "tax": 11.31,
+    "total": 185.31,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-16T15:00:00Z",
+    "expires": "2026-11-16T03:59:00Z",
+    "answeredAt": "2026-10-17T19:30:00Z",
+    "acceptName": "Priscilla Tran",
+    "declineWhy": "",
+    "jobId": "J-HH9788",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-9MSUAK",
+    "key": "ef7685a23ca4bee91d965594bb011dd1",
+    "status": "accepted",
+    "created": "2026-10-14T14:00:00Z",
+    "source": "web",
+    "name": "Peter Novak",
+    "phone": "(555) 437-9028",
+    "email": "peter.novak@example.com",
+    "address": "210 Main Street",
+    "zip": "40101",
+    "town": "Millbrook",
+    "inArea": true,
+    "services": [
+      "s-leak"
+    ],
+    "description": "Water drips under the kitchen sink every night and the cabinet floor is wet.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Leak repair",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "tripFee": 0,
+    "taxRate": 6.5,
+    "subtotal": 129.0,
+    "tax": 8.39,
+    "total": 137.39,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-15T15:00:00Z",
+    "expires": "2026-11-15T03:59:00Z",
+    "answeredAt": "2026-10-16T19:30:00Z",
+    "acceptName": "Peter Novak",
+    "declineWhy": "",
+    "jobId": "J-4ZWJD7",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-3333G8",
+    "key": "e05296498f494a3c93e61aa0d3e1a982",
+    "status": "accepted",
+    "created": "2026-10-14T14:00:00Z",
+    "source": "web",
+    "name": "Rita Gomez",
+    "phone": "(555) 233-4789",
+    "email": "rita.gomez@example.com",
+    "address": "12 Oak Street",
+    "zip": "40101",
+    "town": "Millbrook",
+    "inArea": true,
+    "services": [
+      "s-hvac-tune"
+    ],
+    "description": "Furnace check before winter. It makes a rattling noise when it starts.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Furnace or AC tune-up",
+        "qty": 1,
+        "price": 119
+      }
+    ],
+    "tripFee": 0,
+    "taxRate": 6.5,
+    "subtotal": 119.0,
+    "tax": 7.74,
+    "total": 126.74,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-15T15:00:00Z",
+    "expires": "2026-11-15T03:59:00Z",
+    "answeredAt": "2026-10-16T19:30:00Z",
+    "acceptName": "Rita Gomez",
+    "declineWhy": "",
+    "jobId": "J-3DNEP6",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-LHXDGA",
+    "key": "7953afb985071e83d3eb22d24f7c9466",
+    "status": "accepted",
+    "created": "2026-10-14T14:00:00Z",
+    "source": "web",
+    "name": "Victor Hale",
+    "phone": "(555) 688-2471",
+    "email": "victor.hale@example.com",
+    "address": "77 Quarry Street",
+    "zip": "40127",
+    "town": "North Quarry",
+    "inArea": true,
+    "services": [
+      "s-outlet"
+    ],
+    "description": "Two outlets in the living room stopped working, the breaker looks fine.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Outlet or switch install",
+        "qty": 1,
+        "price": 95
+      }
+    ],
+    "tripFee": 45,
+    "taxRate": 6.5,
+    "subtotal": 140.0,
+    "tax": 9.1,
+    "total": 149.1,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-15T15:00:00Z",
+    "expires": "2026-11-15T03:59:00Z",
+    "answeredAt": "2026-10-16T19:30:00Z",
+    "acceptName": "Victor Hale",
+    "declineWhy": "",
+    "jobId": "J-KGZBEP",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-T4Y2QK",
+    "key": "ebb6e824f7b8d4eb0871e19e35405bd7",
+    "status": "accepted",
+    "created": "2026-10-13T14:00:00Z",
+    "source": "web",
+    "name": "Ethan Clarke",
+    "phone": "(555) 145-8820",
+    "email": "ethan.clarke@example.com",
+    "address": "14 Ridge Road",
+    "zip": "40102",
+    "town": "Millbrook East",
+    "inArea": true,
+    "services": [
+      "s-thermo"
+    ],
+    "description": "Want a smart thermostat installed in place of the old dial one in the hallway.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Smart thermostat install",
+        "qty": 1,
+        "price": 189
+      }
+    ],
+    "tripFee": 0,
+    "taxRate": 6.5,
+    "subtotal": 189.0,
+    "tax": 12.29,
+    "total": 201.29,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-14T15:00:00Z",
+    "expires": "2026-11-14T03:59:00Z",
+    "answeredAt": "2026-10-15T19:30:00Z",
+    "acceptName": "Ethan Clarke",
+    "declineWhy": "",
+    "jobId": "J-FMKQQA",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-VMGNZG",
+    "key": "69413fdedf360c51bfd1431cd479bb36",
+    "status": "declined",
+    "created": "2026-10-11T15:00:00Z",
+    "source": "web",
+    "name": "Victor Hale",
+    "phone": "(555) 688-2471",
+    "email": "victor.hale@example.com",
+    "address": "77 Quarry Street",
+    "zip": "40127",
+    "town": "North Quarry",
+    "inArea": true,
+    "services": [
+      "s-panel"
+    ],
+    "description": "Old 100 amp panel, we want to upgrade before adding an EV charger.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Panel upgrade",
+        "qty": 1,
+        "price": 2200
+      }
+    ],
+    "tripFee": 45,
+    "taxRate": 6.5,
+    "subtotal": 2245.0,
+    "tax": 145.93,
+    "total": 2390.93,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-12T13:00:00Z",
+    "expires": "2026-11-12T03:59:00Z",
+    "answeredAt": "2026-10-14T23:10:00Z",
+    "acceptName": "",
+    "declineWhy": "Going with a cheaper quote for now, thank you.",
+    "jobId": "",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-JR339F",
+    "key": "1aa62fac92eb0fddebfd81991accc27a",
+    "status": "accepted",
+    "created": "2026-10-11T14:00:00Z",
+    "source": "web",
+    "name": "Luis Moreno",
+    "phone": "(555) 377-6612",
+    "email": "luis.moreno@example.com",
+    "address": "102 Pine Avenue",
+    "zip": "40120",
+    "town": "Ashford Hollow",
+    "inArea": true,
+    "services": [
+      "s-post"
+    ],
+    "description": "Clean-up after our bathroom remodel, lots of dust in the hallway too.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "After-work clean-up",
+        "qty": 1,
+        "price": 179
+      }
+    ],
+    "tripFee": 45,
+    "taxRate": 6.5,
+    "subtotal": 224.0,
+    "tax": 14.56,
+    "total": 238.56,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-12T15:00:00Z",
+    "expires": "2026-11-12T03:59:00Z",
+    "answeredAt": "2026-10-13T19:30:00Z",
+    "acceptName": "Luis Moreno",
+    "declineWhy": "",
+    "jobId": "J-L63TJ5",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-XY97EF",
+    "key": "a44f04fefccf4746406bc5e7a473a175",
+    "status": "accepted",
+    "created": "2026-10-10T14:00:00Z",
+    "source": "web",
+    "name": "Owen Fitzgerald",
+    "phone": "(555) 821-3307",
+    "email": "owen.fitz@example.com",
+    "address": "5 Harbor View",
+    "zip": "40115",
+    "town": "Harlow Green",
+    "inArea": true,
+    "services": [
+      "s-light"
+    ],
+    "description": "Need three ceiling lights installed in the new kitchen, wiring is already there.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Light fixture install",
+        "qty": 1,
+        "price": 145
+      }
+    ],
+    "tripFee": 25,
+    "taxRate": 6.5,
+    "subtotal": 170.0,
+    "tax": 11.05,
+    "total": 181.05,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-11T15:00:00Z",
+    "expires": "2026-11-11T03:59:00Z",
+    "answeredAt": "2026-10-12T19:30:00Z",
+    "acceptName": "Owen Fitzgerald",
+    "declineWhy": "",
+    "jobId": "J-T8EDV6",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-UEH4LX",
+    "key": "1a621c6f0adde0dc3e9c6a91b7779296",
+    "status": "accepted",
+    "created": "2026-10-09T14:00:00Z",
+    "source": "web",
+    "name": "Marcus Webb",
+    "phone": "(555) 612-4470",
+    "email": "marcus.webb@example.com",
+    "address": "240 Cedar Road",
+    "zip": "40110",
+    "town": "Cedar Bend",
+    "inArea": true,
+    "services": [
+      "s-hvac-fix"
+    ],
+    "description": "The AC blows air but it is not cold anymore, started last week.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Heating or cooling repair",
+        "qty": 1,
+        "price": 159
+      }
+    ],
+    "tripFee": 25,
+    "taxRate": 6.5,
+    "subtotal": 184.0,
+    "tax": 11.96,
+    "total": 195.96,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-10T15:00:00Z",
+    "expires": "2026-11-10T03:59:00Z",
+    "answeredAt": "2026-10-11T19:30:00Z",
+    "acceptName": "Marcus Webb",
+    "declineWhy": "",
+    "jobId": "J-K94CEW",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-77ZVRM",
+    "key": "d3bcc8db40128d8caabde7f8123d220c",
+    "status": "accepted",
+    "created": "2026-10-08T14:00:00Z",
+    "source": "web",
+    "name": "Hannah Lee",
+    "phone": "(555) 318-9902",
+    "email": "hannah.lee@example.com",
+    "address": "7 Birch Court",
+    "zip": "40104",
+    "town": "Willow Park",
+    "inArea": true,
+    "services": [
+      "s-leak"
+    ],
+    "description": "Water drips under the kitchen sink every night and the cabinet floor is wet.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Leak repair",
+        "qty": 1,
+        "price": 129
+      }
+    ],
+    "tripFee": 0,
+    "taxRate": 6.5,
+    "subtotal": 129.0,
+    "tax": 8.39,
+    "total": 137.39,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-10-09T15:00:00Z",
+    "expires": "2026-11-09T03:59:00Z",
+    "answeredAt": "2026-10-10T19:30:00Z",
+    "acceptName": "Hannah Lee",
+    "declineWhy": "",
+    "jobId": "J-RFV9X6",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-U2YB7Y",
+    "key": "0b3f2ba9694101db1cef72d3b18533e9",
+    "status": "accepted",
+    "created": "2026-09-24T14:00:00Z",
+    "source": "web",
+    "name": "Grace Kim",
+    "phone": "(555) 264-9035",
+    "email": "grace.kim@example.com",
+    "address": "33 Elm Street",
+    "zip": "40101",
+    "town": "Millbrook",
+    "inArea": true,
+    "services": [
+      "s-faucet"
+    ],
+    "description": "We bought a new kitchen faucet and need it fitted, the old one is leaking at the base.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Faucet or toilet install",
+        "qty": 1,
+        "price": 165
+      }
+    ],
+    "tripFee": 0,
+    "taxRate": 6.5,
+    "subtotal": 165.0,
+    "tax": 10.73,
+    "total": 175.73,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-09-25T15:00:00Z",
+    "expires": "2026-10-26T03:59:00Z",
+    "answeredAt": "2026-09-26T19:30:00Z",
+    "acceptName": "Grace Kim",
+    "declineWhy": "",
+    "jobId": "J-LH9DPU",
+    "by": "Maria Chen"
+  },
+  {
+    "id": "Q-EDP95W",
+    "key": "b53f9b97d0de7d6aa98b939862d6ba37",
+    "status": "expired",
+    "created": "2026-09-10T14:00:00Z",
+    "source": "web",
+    "name": "Sofia Rossi",
+    "phone": "(555) 902-5541",
+    "email": "sofia.rossi@example.com",
+    "address": "61 Brookside Drive",
+    "zip": "40123",
+    "town": "Stonebridge",
+    "inArea": true,
+    "services": [
+      "s-heatpump"
+    ],
+    "description": "Looking to replace our oil furnace with a heat pump for a 1,800 sq ft house.",
+    "photos": [],
+    "days": [
+      "2026-10-22",
+      "2026-10-23"
+    ],
+    "times": [
+      "morning"
+    ],
+    "lines": [
+      {
+        "text": "Heat pump install",
+        "qty": 1,
+        "price": 6400
+      }
+    ],
+    "tripFee": 45,
+    "taxRate": 6.5,
+    "subtotal": 6445.0,
+    "tax": 418.93,
+    "total": 6863.93,
+    "note": "",
+    "staffNote": "",
+    "sentAt": "2026-09-12T15:00:00Z",
+    "expires": "2026-10-13T03:59:00Z",
+    "answeredAt": null,
+    "acceptName": "",
+    "declineWhy": "",
+    "jobId": "",
+    "by": "Maria Chen"
+  }
+]

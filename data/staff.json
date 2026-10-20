@@ -1,0 +1,104 @@
+[
+  {
+    "id": "u-maria",
+    "login": "maria",
+    "name": "Maria Chen",
+    "title": "Office manager",
+    "hash": "pbkdf2$100000$apu8MK99gdbsjWMgA6SkgQ==$i6\u002Bcbs7ZKMytUHAhNkNy2uEMWppthohGXg6Nsjw6FIQ=",
+    "admin": false,
+    "active": true,
+    "mustChange": false,
+    "techId": "",
+    "own": false,
+    "perms": {
+      "quotes": "VEX",
+      "jobs": "VEX",
+      "dispatch": "VE",
+      "invoices": "VEX",
+      "customers": "V",
+      "reviews": "VE",
+      "messages": "VEX",
+      "activity": "V"
+    }
+  },
+  {
+    "id": "u-ben",
+    "login": "ben",
+    "name": "Ben Ortiz",
+    "title": "Dispatcher",
+    "hash": "pbkdf2$100000$XXyuUbj1PkgbFOqV6c6nnA==$bn64x\u002B3e\u002B0xYjWpruZOzHBFvXS11F8LWAh6LcethAGg=",
+    "admin": false,
+    "active": true,
+    "mustChange": false,
+    "techId": "",
+    "own": false,
+    "perms": {
+      "quotes": "V",
+      "jobs": "VE",
+      "dispatch": "VE",
+      "customers": "V",
+      "messages": "VE"
+    }
+  },
+  {
+    "id": "u-rosa",
+    "login": "rosa",
+    "name": "Rosa Delgado",
+    "title": "Plumber",
+    "hash": "pbkdf2$100000$MIU47TcKfoCe1kXbJkyfKQ==$iUtTzqjLHICRrrVqTw9uaF/bilSawV/eipw\u002BSPZExGU=",
+    "admin": false,
+    "active": true,
+    "mustChange": false,
+    "techId": "t-rosa",
+    "own": true,
+    "perms": {
+      "jobs": "VE",
+      "dispatch": "V"
+    }
+  },
+  {
+    "id": "u-luis",
+    "login": "luis",
+    "name": "Luis Ferreira",
+    "title": "Plumbing and HVAC",
+    "hash": "pbkdf2$100000$qSPMj8b9RaieAWc5\u002BlST/A==$h1k3vJME93/cJ9DBzJQOLrG5qGEJLrh6UN3DvQYNAPo=",
+    "admin": false,
+    "active": true,
+    "mustChange": false,
+    "techId": "t-luis",
+    "own": true,
+    "perms": {
+      "jobs": "VE",
+      "dispatch": "V"
+    }
+  },
+  {
+    "id": "u-tom",
+    "login": "tom",
+    "name": "Tom Akers",
+    "title": "HVAC technician",
+    "hash": "pbkdf2$100000$ak3s8X\u002BI3WRUJ0PGpbOMsg==$0i18obpytVGhGnfkZUO/EUNxuWuxUkI6evcuQid\u002Bmf0=",
+    "admin": false,
+    "active": true,
+    "mustChange": false,
+    "techId": "t-tom",
+    "own": true,
+    "perms": {
+      "jobs": "VE",
+      "dispatch": "V"
+    }
+  },
+  {
+    "id": "u-demo",
+    "login": "demo",
+    "name": "Demo manager",
+    "title": "Manager",
+    "hash": "",
+    "admin": true,
+    "active": true,
+    "mustChange": false,
+    "techId": "",
+    "own": false,
+    "perms": {}
+  }
+]

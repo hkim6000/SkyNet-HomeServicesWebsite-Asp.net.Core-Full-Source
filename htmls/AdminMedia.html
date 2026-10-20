@@ -1,0 +1,24 @@
+<div class="am-site" data-page="AdminMedia" id="am-root">
+<header class="am-top">
+    <button type="button" class="am-burger" aria-label="Open menu" onclick="AdminMediaJs.openMenu()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="am-logo" href="Admin"><svg viewBox="0 0 40 40" width="36" height="36" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#1E2A33"/><path d="M9 20.5 20 11l11 9.5" fill="none" stroke="#F7F4EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 19v11h14V19" fill="none" stroke="#F7F4EE" stroke-width="3" stroke-linejoin="round"/><path d="M20 30c-2.6 0-4-1.7-4-3.6 0-2.4 2.4-3.4 2.4-5.7 1.7.9 2.8 2.4 2.8 4 .5-.3.9-.9 1-1.6.8.8 1.8 1.9 1.8 3.3 0 1.9-1.4 3.6-4 3.6z" fill="#E2622B"/></svg><span id="am-brand">Staff</span><small>Staff</small></a>
+    <div class="am-who" id="am-who"></div>
+    <a class="am-tl am-tlv" href="Home" target="_blank" rel="noopener">View site</a>
+    <button type="button" class="am-tl" onclick="AdminMediaJs.signout()">Sign out</button>
+</header>
+<div class="am-body">
+    <nav class="am-rail" id="am-rail" aria-label="Staff menu">
+        <div class="am-rail-top"><b>Menu</b><button type="button" class="am-ibtn" aria-label="Close menu" onclick="AdminMediaJs.closeMenu()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+        <div class="am-menu" id="am-menu"></div>
+    </nav>
+    <div class="am-scrim" id="am-scrim" onclick="AdminMediaJs.closeMenu()"></div>
+    <main class="am-main" id="am-main"><div class="am-loading">Loading</div></main>
+</div>
+<div class="am-modal" id="am-modal" aria-hidden="true">
+    <div class="am-mbox" role="dialog" aria-modal="true" aria-labelledby="am-mtitle">
+        <div class="am-mhead"><h2 id="am-mtitle"></h2><button type="button" class="am-ibtn" aria-label="Close" onclick="AdminMediaJs.closeModal()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+        <div class="am-mbody" id="am-mbody"></div>
+    </div>
+</div>
+<div class="am-toast" id="am-toast" role="status" aria-live="polite"></div>
+</div>
