@@ -256,7 +256,8 @@ namespace HomeServices.codes
             }
             sb.Append("<div class=\"aq-sect\">Quote</div>");
             sb.Append("<div class=\"aq-lnh\"><span>Description</span><span>Qty</span><span>Unit price</span><span></span></div><div class=\"aq-lines\" id=\"aq-lines\">");
-            foreach (LineItem l in q.Lines)
+            List<LineItem> shown = editable && q.Lines.Count == 0 ? q.Services.Select(id => site.Services.FirstOrDefault(x => x.Id == id)).Where(x => x != null).Select(x => new LineItem { Text = x!.Name, Qty = 1, Price = x.From }).ToList() : q.Lines;
+            foreach (LineItem l in shown)
             {
                 sb.Append(LineRow(l, ro));
             }
@@ -280,7 +281,7 @@ namespace HomeServices.codes
                 sb.Append("<p class=\"aq-hint\">No lines yet.</p>");
             }
             decimal rate = editable ? site.TaxRate : q.TaxRate;
-            (decimal sub, decimal tax, decimal total) = Work.Totals(q.Lines, q.TripFee, rate);
+            (decimal sub, decimal tax, decimal total) = Work.Totals(shown, q.TripFee, rate);
             sb.Append("<div class=\"aq-qfoot\"><label class=\"aq-field aq-trip\" for=\"aq-trip\"><span>Trip fee</span><input type=\"number\" id=\"aq-trip\" min=\"0\" step=\"0.01\" value=\"" + q.TripFee.ToString("0.00", CultureInfo.InvariantCulture) + "\"" + (ro ? " disabled" : string.Empty) + "><small>From the ZIP code zone: " + Ui.Money(Work.TripFee(site, q.Zip)) + "</small></label><div class=\"aq-qtot\" id=\"aq-qtot\">" + TotalsHtml(sub, rate, tax, total) + "</div></div>");
             sb.Append("<em class=\"aq-err\" id=\"aq-e-lines\"></em>");
             sb.Append("<label class=\"aq-field\" for=\"aq-note\"><span>Note to the customer (shown on the quote)</span><textarea id=\"aq-note\" rows=\"3\" maxlength=\"1000\"" + (ro ? " disabled" : string.Empty) + ">" + Ui.Esc(q.Note) + "</textarea></label>");
