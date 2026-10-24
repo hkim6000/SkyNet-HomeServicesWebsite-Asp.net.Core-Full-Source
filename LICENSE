@@ -51,14 +51,37 @@ downloading, installing or using the Framework, you agree to these terms.
 
 1. License Grant
 
-   The Owner grants you a free, non-exclusive, non-transferable, worldwide,
-   royalty-free license to:
+   This free license is available only to Eligible Users. You are an
+   "Eligible User" if you are an individual, company or other organization
+   whose total gross revenue in the previous 12 months was less than ten
+   million U.S. dollars (USD 10,000,000), or the equivalent in other
+   currencies. Revenue is counted together with every entity that controls
+   you, is controlled by you or is under common control with you. A
+   nonprofit organization, school or government body counts its total
+   annual budget or funding instead of revenue.
+
+   If you build an application with the Framework for someone else, both you
+   and the person or organization the application is built for must be
+   Eligible Users. People who only use an application built with the
+   Framework, without developing with it, do not need their own license.
+
+   If you are an Eligible User, the Owner grants you a free, non-exclusive,
+   non-transferable, worldwide, royalty-free license to:
 
    a) download, install and use the Framework to develop, test and run your
       own applications, including commercial applications; and
 
    b) redistribute the unmodified Framework only as an integral part of an
       application you build with it, and not on its own.
+
+   If you are not an Eligible User, you may download, install and use the
+   Framework free of charge for 90 days to evaluate it, for development and
+   testing only and not to run any application in production. After the
+   evaluation, or to run an application in production, you need a separate
+   written commercial license from the Owner. If you stop being an Eligible
+   User, you may keep using the Framework for 90 days from that day; after
+   that you need a commercial license to continue. To obtain a commercial
+   license, contact the Owner at https://www.theskylite.com.
 
 2. Restrictions
 
@@ -128,7 +151,8 @@ downloading, installing or using the Framework, you agree to these terms.
 9. Entire Agreement
 
    This license is the entire agreement between you and the Owner about the
-   Framework. If any provision is held unenforceable, the remaining
-   provisions stay in effect.
+   Framework, unless you and the Owner sign a separate written license for
+   the Framework, which then governs. If any provision is held
+   unenforceable, the remaining provisions stay in effect.
 
 Questions: https://www.theskylite.com

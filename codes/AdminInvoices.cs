@@ -607,6 +607,13 @@ namespace HomeServices.codes
                     i.Status = "void";
                     i.VoidWhy = why;
                     await Store.SaveInvoices(inv);
+                    List<JobRec> jobs = await Store.Jobs();
+                    JobRec? freed = jobs.FirstOrDefault(x => x.Id == i.JobId && x.InvoiceId == i.Id);
+                    if (freed != null)
+                    {
+                        freed.InvoiceId = string.Empty;
+                        await Store.SaveJobs(jobs);
+                    }
                     done = i;
                 }
             }
